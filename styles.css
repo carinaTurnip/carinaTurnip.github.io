@@ -1,0 +1,47 @@
+body {
+    background-color: #eaccff; 
+    font-family: Arial, sans-serif; /* Font family */
+    color: #29183f; /* Text color */
+    margin: 2px;
+    padding: 2px;
+    
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: #762fac;
+    color: #f2cffc; 
+}
+
+img {
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+p.bio {
+    padding: 2px;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h2 {
+    text-align: left;
+}
+
+li {
+    text-align: left;
+    padding: 0;
+    list-style-image: url('/bullet.jpg');
+}
