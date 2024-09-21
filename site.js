@@ -1,3 +1,4 @@
+//Week 3
 const hours = new Date().getHours() // get the current hour
 
 const isMorning = hours >= 4 && hours < 12 // is it morning?
@@ -21,3 +22,8 @@ if (isAfternoon == true) {
 if (isEvening == true) {
     welcome.textContent = welcomeMessages[2];
 }
+
+
+//week 4
+const secretMessage = "MOBLIN: ";
+localStorage.setItem("\"It's a secret to everybody.\"", secretMessage);
