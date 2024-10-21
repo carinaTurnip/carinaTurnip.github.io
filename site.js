@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-=======
+//<<<<<<< HEAD
+//=======
 //Week 3
->>>>>>> 3a83553647bf4059ecf06f77aeccb5eb5e0c16b9
+//>>>>>>> 3a83553647bf4059ecf06f77aeccb5eb5e0c16b9
 const hours = new Date().getHours() // get the current hour
 
 const isMorning = hours >= 4 && hours < 12 // is it morning?
@@ -9,13 +9,10 @@ const isAfternoon = hours >= 12 && hours < 17 // is it afternoon?
 const isEvening = hours >= 17 || hours < 4 // is it evening?
 
 const welcomeMessages = [
-<<<<<<< HEAD
+//<<<<<<< HEAD
     'Good Morning, Friends!',
     'Good Afternoon, Friends!',
-=======
-    'Good Morning, Friends!', 
-    'Good Afternoon, Friends!', 
->>>>>>> 3a83553647bf4059ecf06f77aeccb5eb5e0c16b9
+//>>>>>>> 3a83553647bf4059ecf06f77aeccb5eb5e0c16b9
     'Good Evening Friends'
 ]
 
@@ -31,7 +28,7 @@ if (isEvening == true) {
     welcome.textContent = welcomeMessages[2];
 }
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 //carousel
 
 const urls = [
@@ -81,4 +78,4 @@ setInterval(() => {
 //week 4
 const secretMessage = "MOBLIN: ";
 localStorage.setItem("\"It's a secret to everybody.\"", secretMessage);
->>>>>>> 3a83553647bf4059ecf06f77aeccb5eb5e0c16b9
+//>>>>>>> 3a83553647bf4059ecf06f77aeccb5eb5e0c16b9
